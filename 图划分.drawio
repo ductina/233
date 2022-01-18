@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-18T02:58:04.541Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="OShNIQD6a3G2I2wF8duB" version="16.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-18T03:00:45.513Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="lzQRg9Xzl3cFnsTL5e1c" version="16.1.4" type="github">
   <diagram id="CnrGdjlpG-0PLHqotfFn" name="Page-1">
     <mxGraphModel dx="794" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -488,32 +488,29 @@
         <mxCell id="g1QRkOlSLJRobrrcsTEr-45" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="934" y="2590" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="g1QRkOlSLJRobrrcsTEr-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g1QRkOlSLJRobrrcsTEr-47" target="g1QRkOlSLJRobrrcsTEr-48">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g1QRkOlSLJRobrrcsTEr-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1044" y="2589.9999999999995" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="g1QRkOlSLJRobrrcsTEr-47" value="O为根" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="949" y="2580" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="g1QRkOlSLJRobrrcsTEr-48" value="S根规模+1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1044" y="2560" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="g1QRkOlSLJRobrrcsTEr-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g1QRkOlSLJRobrrcsTEr-50" target="g1QRkOlSLJRobrrcsTEr-51">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g1QRkOlSLJRobrrcsTEr-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1044" y="2709.9999999999995" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="g1QRkOlSLJRobrrcsTEr-50" value="O非根" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="949" y="2700" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="g1QRkOlSLJRobrrcsTEr-51" value="&lt;span&gt;S根规模+1&lt;br&gt;这个时候如果O的入度不为1了，没有关系&lt;br&gt;因为O是作为非根节点存在的&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1044" y="2665" width="180" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="g1QRkOlSLJRobrrcsTEr-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g1QRkOlSLJRobrrcsTEr-53" target="g1QRkOlSLJRobrrcsTEr-54">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g1QRkOlSLJRobrrcsTEr-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="974" y="2899.9999999999995" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="g1QRkOlSLJRobrrcsTEr-53" value="S非根" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="879" y="2890" width="50" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="g1QRkOlSLJRobrrcsTEr-54" value="直接加到S所在的树&lt;br&gt;修改S所在的树的规模" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="974" y="2870" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g1QRkOlSLJRobrrcsTEr-55" value="因为是按树转移的，所以直接删除这颗树即可" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="744" y="2880" width="120" height="60" as="geometry" />
