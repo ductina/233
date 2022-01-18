@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2022-01-12T02:10:04.259Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="vwKbMqiEnriLKnRwaje1" version="16.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-18T02:56:48.791Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="o6trs9_bQvwMLzdQ5eZb" version="16.1.4" type="github">
   <diagram id="CnrGdjlpG-0PLHqotfFn" name="Page-1">
-    <mxGraphModel dx="516" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-57" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="2500" width="570" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-56" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="2500" width="570" height="460" as="geometry" />
+        </mxCell>
         <mxCell id="zFU5oNDIlzZ2d6ieY4Zo-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="80" width="320" height="230" as="geometry" />
         </mxCell>
@@ -412,6 +418,111 @@
         </mxCell>
         <mxCell id="g1QRkOlSLJRobrrcsTEr-16" value="只要每在取出S为根的树时验证一下规模大小是否一致就可以了" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="2880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.008;exitY=0.367;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="g1QRkOlSLJRobrrcsTEr-33" target="g1QRkOlSLJRobrrcsTEr-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="g1QRkOlSLJRobrrcsTEr-34" target="g1QRkOlSLJRobrrcsTEr-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-36" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g1QRkOlSLJRobrrcsTEr-18" target="g1QRkOlSLJRobrrcsTEr-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="g1QRkOlSLJRobrrcsTEr-18" target="g1QRkOlSLJRobrrcsTEr-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-18" value="Master" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="3150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.008;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="g1QRkOlSLJRobrrcsTEr-19" target="g1QRkOlSLJRobrrcsTEr-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g1QRkOlSLJRobrrcsTEr-19" target="g1QRkOlSLJRobrrcsTEr-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-19" value="slave1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="3040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g1QRkOlSLJRobrrcsTEr-20" target="g1QRkOlSLJRobrrcsTEr-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="g1QRkOlSLJRobrrcsTEr-20" target="g1QRkOlSLJRobrrcsTEr-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-20" value="slave2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="3230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-23" value="端口7771" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="275" y="3020" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-25" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="g1QRkOlSLJRobrrcsTEr-20" target="g1QRkOlSLJRobrrcsTEr-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-29" value="端口7772" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="3260" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-32" value="端口10012" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="3150" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-33" value="slaveManage1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="3030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-34" value="slaveManage2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="3270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-38" value="周双" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="2260" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g1QRkOlSLJRobrrcsTEr-42" target="g1QRkOlSLJRobrrcsTEr-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-42" value="转移的SPO集合" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="744" y="2740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-43" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="864" y="2645" width="20" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-44" value="S为根" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="884" y="2640" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-45" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="934" y="2590" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g1QRkOlSLJRobrrcsTEr-47" target="g1QRkOlSLJRobrrcsTEr-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-47" value="O为根" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="949" y="2580" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-48" value="S根规模+1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1044" y="2560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g1QRkOlSLJRobrrcsTEr-50" target="g1QRkOlSLJRobrrcsTEr-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-50" value="O非根" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="949" y="2700" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-51" value="&lt;span&gt;S根规模+1&lt;br&gt;这个时候如果O的入度不为1了，没有关系&lt;br&gt;因为O是作为非根节点存在的&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1044" y="2665" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g1QRkOlSLJRobrrcsTEr-53" target="g1QRkOlSLJRobrrcsTEr-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-53" value="S非根" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="879" y="2890" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-54" value="直接加到S所在的树&lt;br&gt;修改S所在的树的规模" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="974" y="2870" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-55" value="只要每在取出S为根的树时验证一下规模大小是否一致就可以了" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="744" y="2880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-58" value="接收边的slave" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2529" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g1QRkOlSLJRobrrcsTEr-59" value="发送边的slave" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="744" y="2529" width="126" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
