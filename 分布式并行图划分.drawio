@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T12:10:41.360Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="8-KFVFCiS9ac7JFoa44C" version="17.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-14T12:17:03.769Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="yeHjJoDDwewH9DQGWDq-" version="17.0.0" type="github">
   <diagram id="alQ_5Ez72-CGfpkcAZd9" name="Page-1">
     <mxGraphModel dx="845" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,6 +21,73 @@
         </mxCell>
         <mxCell id="Ryq-80j17tdRC5Q5oUDi-6" value="slave3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="430" y="690" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ryq-80j17tdRC5Q5oUDi-7" value="1. 边数&lt;br&gt;2. graph" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ryq-80j17tdRC5Q5oUDi-8" value="请求队列" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="250" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ryq-80j17tdRC5Q5oUDi-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=block;endFill=1;" edge="1" parent="1" source="Ryq-80j17tdRC5Q5oUDi-9" target="Ryq-80j17tdRC5Q5oUDi-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="135" y="500" />
+              <mxPoint x="715" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ryq-80j17tdRC5Q5oUDi-9" value="移入线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="320" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ryq-80j17tdRC5Q5oUDi-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Ryq-80j17tdRC5Q5oUDi-10" target="Ryq-80j17tdRC5Q5oUDi-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ryq-80j17tdRC5Q5oUDi-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=block;endFill=1;" edge="1" parent="1" source="Ryq-80j17tdRC5Q5oUDi-10" target="Ryq-80j17tdRC5Q5oUDi-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ryq-80j17tdRC5Q5oUDi-10" value="移出线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="320" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ryq-80j17tdRC5Q5oUDi-13" value="取出请求， 批处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="384" y="390" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ryq-80j17tdRC5Q5oUDi-15" value="移出边" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="275" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ryq-80j17tdRC5Q5oUDi-16" value="请求队列" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="490" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ryq-80j17tdRC5Q5oUDi-18" value="发送请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ryq-80j17tdRC5Q5oUDi-21" value="1. 边数&lt;br&gt;2. graph" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ryq-80j17tdRC5Q5oUDi-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=block;endFill=1;" edge="1" parent="1" source="Ryq-80j17tdRC5Q5oUDi-22" target="Ryq-80j17tdRC5Q5oUDi-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ryq-80j17tdRC5Q5oUDi-22" value="移入线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="330" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ryq-80j17tdRC5Q5oUDi-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=block;endFill=1;" edge="1" parent="1" source="Ryq-80j17tdRC5Q5oUDi-24" target="Ryq-80j17tdRC5Q5oUDi-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ryq-80j17tdRC5Q5oUDi-24" value="移出线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="330" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ryq-80j17tdRC5Q5oUDi-25" value="移出边" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1015" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ryq-80j17tdRC5Q5oUDi-27" value="发送请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="340" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
