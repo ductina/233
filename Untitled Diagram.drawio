@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-20T03:45:01.880Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="Dgc5SOvofJAJ5QqD2f7n" version="17.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-20T07:00:34.463Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="uOUsdSSeWKZtYtPaPUMd" version="17.4.4" type="github">
   <diagram id="tCeM-rysjeOYAdtQbSf4" name="Page-1">
     <mxGraphModel dx="1303" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="FKuTPAZX4LTHbyCP1aJI-6" value="String-ID映射" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="154" y="305" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="FKuTPAZX4LTHbyCP1aJI-7" value="String-ID映射" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FKuTPAZX4LTHbyCP1aJI-7" value="SPARQL解析器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="305" width="105" height="20" as="geometry" />
         </mxCell>
         <mxCell id="FKuTPAZX4LTHbyCP1aJI-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
