@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-26T21:12:22.397Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="tN4yODCzlkOeeagQ88Kp" version="18.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-30T06:28:28.626Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="xBHxOCwXbeXXTlXQLhbp" version="18.1.2" type="github">
   <diagram id="sGBOU9-vc2qiGp-AH_Su" name="Page-1">
-    <mxGraphModel dx="7688" dy="2952" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8817" dy="4286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2363,11 +2363,162 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VdEXqVmg2vQ4U3X18QEQ-1" value="切点度数较低" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=宋体;fontSize=50;" vertex="1" parent="1">
+        <mxCell id="VdEXqVmg2vQ4U3X18QEQ-1" value="切点度数较低" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=宋体;fontSize=50;" parent="1" vertex="1">
           <mxGeometry x="3017" y="5763" width="310" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="VdEXqVmg2vQ4U3X18QEQ-2" value="切点度数较高" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=宋体;fontSize=50;" vertex="1" parent="1">
+        <mxCell id="VdEXqVmg2vQ4U3X18QEQ-2" value="切点度数较高" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=宋体;fontSize=50;" parent="1" vertex="1">
           <mxGeometry x="3870" y="5763" width="310" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-1" value="x&lt;sub&gt;1&lt;/sub&gt;" style="rounded=1;labelBorderColor=none;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-771" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-156" value="s1" style="ellipse;fontSize=21;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-1220" y="2214.5" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-163" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontSize=21;fontFamily=Times New Roman;" edge="1" parent="1" source="ISfdbMP_UBRkutifxLH2-157" target="ISfdbMP_UBRkutifxLH2-156">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-164" value="p1" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;fontFamily=Times New Roman;" vertex="1" connectable="0" parent="ISfdbMP_UBRkutifxLH2-163">
+          <mxGeometry x="-0.0698" y="1" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-165" value="pt" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=21;fontFamily=Times New Roman;" edge="1" parent="1" source="ISfdbMP_UBRkutifxLH2-157" target="ISfdbMP_UBRkutifxLH2-158">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-166" value="p2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontSize=21;fontFamily=Times New Roman;" edge="1" parent="1" source="ISfdbMP_UBRkutifxLH2-157" target="ISfdbMP_UBRkutifxLH2-160">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-990" y="2245" />
+              <mxPoint x="-990" y="2245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-157" value="?x" style="rounded=0;fontStyle=0;fontSize=21;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-1075" y="2219.5" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-158" value="s2" style="ellipse;fontSize=21;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="2100" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-159" value="s3" style="ellipse;fontSize=21;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="2100" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-167" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=21;fontFamily=Times New Roman;" edge="1" parent="1" source="ISfdbMP_UBRkutifxLH2-160" target="ISfdbMP_UBRkutifxLH2-161">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-168" value="p3" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;fontFamily=Times New Roman;" vertex="1" connectable="0" parent="ISfdbMP_UBRkutifxLH2-167">
+          <mxGeometry x="-0.0599" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-169" value="pt" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontSize=21;fontFamily=Times New Roman;" edge="1" parent="1" source="ISfdbMP_UBRkutifxLH2-160" target="ISfdbMP_UBRkutifxLH2-159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-160" value="?y" style="rounded=0;fontSize=21;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-935" y="2219.5" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-170" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=21;fontFamily=Times New Roman;" edge="1" parent="1" source="ISfdbMP_UBRkutifxLH2-161" target="ISfdbMP_UBRkutifxLH2-162">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-171" value="pt" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;fontFamily=Times New Roman;" vertex="1" connectable="0" parent="ISfdbMP_UBRkutifxLH2-170">
+          <mxGeometry x="-0.0585" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-161" value="?z" style="rounded=0;fontSize=21;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="2219.5" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-162" value="s4" style="ellipse;fontSize=21;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-795" y="2100" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-172" value="s1" style="ellipse;fontSize=21;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-1220" y="2465.25" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-173" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontSize=21;fontFamily=Times New Roman;" edge="1" parent="1" source="ISfdbMP_UBRkutifxLH2-177" target="ISfdbMP_UBRkutifxLH2-172">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-174" value="p1" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;fontFamily=Times New Roman;" vertex="1" connectable="0" parent="ISfdbMP_UBRkutifxLH2-173">
+          <mxGeometry x="-0.0698" y="1" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-175" value="pt" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=21;fontFamily=Times New Roman;" edge="1" parent="1" source="ISfdbMP_UBRkutifxLH2-177" target="ISfdbMP_UBRkutifxLH2-178">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-176" value="p2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontSize=21;fontFamily=Times New Roman;" edge="1" parent="1" source="ISfdbMP_UBRkutifxLH2-177" target="ISfdbMP_UBRkutifxLH2-181">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-990" y="2495.75" />
+              <mxPoint x="-990" y="2495.75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-177" value="?x" style="rounded=0;fontStyle=0;fontSize=21;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-1075" y="2470.25" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-178" value="s2" style="ellipse;fontSize=21;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="2350.75" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-181" value="?y" style="rounded=0;fontSize=21;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-935" y="2470.25" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-182" value="s3" style="ellipse;fontSize=21;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-817" y="2350" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-183" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=21;fontFamily=Times New Roman;" edge="1" parent="1" source="ISfdbMP_UBRkutifxLH2-186" target="ISfdbMP_UBRkutifxLH2-189">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-184" value="p3" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;fontFamily=Times New Roman;" vertex="1" connectable="0" parent="ISfdbMP_UBRkutifxLH2-183">
+          <mxGeometry x="-0.0599" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-185" value="pt" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontSize=21;fontFamily=Times New Roman;" edge="1" parent="1" source="ISfdbMP_UBRkutifxLH2-186" target="ISfdbMP_UBRkutifxLH2-182">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-186" value="?y" style="rounded=0;fontSize=21;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-812" y="2469.5" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-189" value="?z" style="rounded=0;fontSize=21;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-667" y="2469.5" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-192" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=21;fontFamily=Times New Roman;" edge="1" parent="1" source="ISfdbMP_UBRkutifxLH2-194" target="ISfdbMP_UBRkutifxLH2-195">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-193" value="pt" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;fontFamily=Times New Roman;" vertex="1" connectable="0" parent="ISfdbMP_UBRkutifxLH2-192">
+          <mxGeometry x="-0.0585" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-194" value="?z" style="rounded=0;fontSize=21;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="2470.25" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-195" value="s4" style="ellipse;fontSize=21;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-545" y="2350.75" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-196" value="A" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-1054" y="2543" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-197" value="B" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="2545" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-198" value="C" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-523" y="2545" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-203" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=21;endArrow=none;endFill=0;verticalAlign=middle;spacingBottom=4;spacingRight=-1;" edge="1" parent="1" source="ISfdbMP_UBRkutifxLH2-200" target="ISfdbMP_UBRkutifxLH2-201">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-200" value="A" style="ellipse;aspect=fixed;labelBorderColor=none;fontFamily=Times New Roman;fontSize=21;verticalAlign=middle;spacingBottom=4;spacingRight=-1;" vertex="1" parent="1">
+          <mxGeometry x="-1230" y="2750" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-204" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=Times New Roman;fontSize=21;endArrow=none;endFill=0;verticalAlign=middle;spacingBottom=4;spacingRight=-1;" edge="1" parent="1" source="ISfdbMP_UBRkutifxLH2-201" target="ISfdbMP_UBRkutifxLH2-202">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-201" value="B" style="ellipse;aspect=fixed;labelBorderColor=none;fontFamily=Times New Roman;fontSize=21;fontStyle=0;verticalAlign=middle;spacingBottom=4;spacingRight=-1;" vertex="1" parent="1">
+          <mxGeometry x="-1130" y="2750" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ISfdbMP_UBRkutifxLH2-202" value="C" style="ellipse;aspect=fixed;labelBorderColor=none;fontFamily=Times New Roman;fontSize=21;fontStyle=0;verticalAlign=middle;spacingBottom=4;spacingRight=-1;" vertex="1" parent="1">
+          <mxGeometry x="-1027" y="2750" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
